@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "normalize.css";
+
+/* font-family: "Roboto",
+sans-serif; */
+
+:root {
+  --blue: #3a68b8;
+  --white: #ffffff;
+  --gray70: #b4b7bb;
+  --gray60: #9c9fa5;
+  --duration: 0.3s;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+p {
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+  background: var(--blue);
+  border: none;
+  cursor: pointer;
+}

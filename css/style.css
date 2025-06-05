@@ -140,7 +140,7 @@ nav {
       }
     }
 
-    @media screen and (max-width: 380px) {
+    @media screen and (max-width: 390px) {
       .nav_logo {
         gap: 12px;
       }
@@ -159,7 +159,7 @@ nav {
 header {
   padding-top: 49px;
   padding-bottom: 99px;
-  background: linear-gradient(to top, #08101D, #08101E, #09101E, #09111F);
+  background: linear-gradient(to top, #08101d, #08101e, #09101e, #09111f);
 
   .container {
     display: grid;
@@ -168,15 +168,13 @@ header {
     grid-gap: 48px;
     grid-template-areas:
       "content img"
-      "partner partner"
-    ;
+      "partner partner";
 
     @media screen and (max-width: 1024px) {
       grid-template-areas:
         "content content"
         "img img"
-        "partner partner"
-      ;
+        "partner partner";
     }
 
     .header__content {
@@ -233,7 +231,9 @@ header {
 
     .header__img {
       grid-area: img;
-      img {width: 100%;}
+      img {
+        width: 100%;
+      }
     }
 
     .header__partners {

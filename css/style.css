@@ -330,57 +330,64 @@ main {
 
   .main__slider {
     margin: 130px 0px;
-  }
 
-  .main__slider-items {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    overflow: hidden;
+    .main__slider-items {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      overflow: hidden;
 
-    .main__slider-item {
-      padding: 30px;
-      max-width: 362px;
-      min-width: 362px;
-      background: linear-gradient(
-        to top,
-        #0d1522,
-        #0e1523,
-        #101825,
-        #131b28,
-        #161d2a,
-        #171e2b,
-        #18202c
-      );
-      border-radius: 10px;
+      .main__slider-item {
+        padding: 30px;
+        max-width: 362px;
+        min-width: 362px;
+        background: linear-gradient(
+          to top,
+          #0d1522,
+          #0e1523,
+          #101825,
+          #131b28,
+          #161d2a,
+          #171e2b,
+          #18202c
+        );
+        border-radius: 10px;
 
-      .msi-icon {
-        width: 98px;
-        height: 98px;
-        margin: 0 auto;
+        .msi-icon {
+          width: 98px;
+          height: 98px;
+          margin: 0 auto;
 
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+
+        .msi__title {
+          font-size: 25px;
+          font-weight: 700;
+          text-align: center;
+          color: var(--white);
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+
+        .msi__descr {
+          margin: 0;
+          text-align: center;
+          color: var(--gray70);
+          padding: 0;
         }
       }
-
-      .msi__title {
-        font-size: 25px;
-        font-weight: 700;
-        text-align: center;
-        color: var(--white);
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-
-      .msi__descr {
-        margin: 0;
-        text-align: center;
-        color: var(--gray70);
-        padding: 0;
-      }
     }
+    @media screen and (max-width: 768px) {
+      margin: 64px 0px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 64px 0px;
   }
 }

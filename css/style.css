@@ -305,7 +305,9 @@ main {
       p {
         color: var(--gray70);
         margin-top: 0;
-        margin-bottom: 50px;
+      }
+      button {
+        margin-top: 34px;
       }
     }
     @media screen and (max-width: 1024px) {
@@ -394,17 +396,18 @@ main {
 
 footer {
   padding: 130px 0px;
-  background: linear-gradient(to top, #0A111E, #0A121F, #0B121F, #0B1320);
+  background: linear-gradient(to top, #0a111e, #0a121f, #0b121f, #0b1320);
   font-family: "Roboto", sans-serif;
   color: var(--white);
-  
+
   .container {
     display: flex;
     gap: 64px;
     justify-content: space-between;
 
     .footer__block {
-      &:first-child, &:last-child {
+      &:first-child,
+      &:last-child {
         max-width: 261px;
       }
 
@@ -430,7 +433,7 @@ footer {
 
         li {
           display: flex;
-          align-items:center;
+          align-items: center;
           gap: 8px;
           margin-bottom: 20px;
 
@@ -451,7 +454,7 @@ footer {
       ul {
         margin: 0;
         padding: 0;
-        
+
         li {
           list-style-type: none;
           margin-bottom: 20px;
@@ -498,8 +501,9 @@ footer {
         justify-content: center;
         text-align: center;
 
-        &:first-child,  &:last-child {
-          max-width: unset; 
+        &:first-child,
+        &:last-child {
+          max-width: unset;
         }
 
         .company__social {

@@ -228,6 +228,14 @@ header {
           }
         }
       }
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+
+        .header__content-btns {
+          justify-content: center;
+        }
+      }
     }
 
     .header__img {
